@@ -18,7 +18,7 @@ Currently, I don’t have public projects yet, but I’m actively learning and w
 ![](https://github-trophies.vercel.app/?username=TianAn2411&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 ## 🌐Socials
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/truongthien.an.754) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/trth_an2411) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/antruong24112005) 
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/trth.an2411/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/trth_an2411) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/antruong24112005) 
 
 ---
 [![](https://visitcount.itsvg.in/api?id=TianAn2411&icon=0&color=0)](https://visitcount.itsvg.in)

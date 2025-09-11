@@ -23,7 +23,7 @@ Currently, I don’t have public projects yet, but I’m actively learning and w
 |------------|------|
 | <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" width="20"/>| [antruong.andy.work@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=antruong.andy.work@gmail.com) |
 | <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20"/>| [Ân Trương (Andy Truong)](https://www.linkedin.com/in/antruong24112005) |
-| <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="20"/>| [Trương Thiên Ân](https://www.facebook.com/trth.an2411/) |
+| <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="20"/>| [Trương Thiên Ân](https://www.facebook.com/trth.an241105/) |
 | <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="20"/>| [@trth_an2411](https://instagram.com/trth_an2411) |
 
 ---

@@ -1,23 +1,23 @@
-# 💫About Me :
-👋 Hi, I’m **Truong Thien An** (you can call me **Andy**) <br>
-🎓 A third-year **Computer Engineering** student at **HCMUT - VNU** <br>
-🤖 Passionate about **Artificial Intelligence (AI)** and **IoT applications** <br>
-💡 I enjoy exploring, learning, and applying technology to solve real-world problems. <br>
+# About Me :
+ Hi, I’m **Truong Thien An** (you can call me **Andy**) <br>
+ A third-year **Computer Engineering** student at **HCMUT - VNU** <br>
+ Passionate about **Artificial Intelligence (AI)** and **IoT applications** <br>
+ I enjoy exploring, learning, and applying technology to solve real-world problems. <br>
 
 
-# 💻Tech Stack
+# Tech Stack
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-# 🚀 Projects  
+#  Projects  
 Currently, I don’t have public projects yet, but I’m actively learning and will share my works here in the future. Stay tuned!
-# 📊GitHub Stats :
+# GitHub Stats :
 ![](https://github-readme-stats.vercel.app/api?username=TianAn2411&theme=radical&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=TianAn2411&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=TianAn2411&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-## 🏆GitHub Trophies
+## GitHub Trophies
 ![](https://github-trophies.vercel.app/?username=TianAn2411&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-## 📫 Contact Me
+##  Contact Me
 
 | Method     | Link |
 |------------|------|

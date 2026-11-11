@@ -1,41 +1,55 @@
-# About Me
+<div align="center">
 
-Hi, I'm **Truong Thien An** — you can call me **Andy**.
+# An Thien Truong
 
-A fourth-year student in the **Honors Program in Computer Engineering** at **HCMUT – VNU-HCM**, working at the intersection of **Artificial Intelligence** and **resource-constrained hardware**.
+**AI Engineer at Hypmotion · Research Assistant at URA Research Group, HCMUT**
 
-Currently in UAV/Robotics R&D, my focus spans **Deep Reinforcement Learning**, **Edge AI**, and **real-time perception systems**. I'm drawn to the challenge of bridging theoretical AI with the strict latency and memory constraints of embedded and autonomous platforms — translating raw sensor data into reliable, real-world autonomous actions.
+Robot perception and navigation, from deep reinforcement learning to closed-form methods, on edge devices.
 
-A fast adapter in high-paced research environments, I gravitate toward problems that demand both rigorous engineering and creative problem-solving.
+Trương Thiên Ân · Andy · Ho Chi Minh City, Vietnam
 
----
+[Email](mailto:antruong.andy.work@gmail.com) · [LinkedIn](https://www.linkedin.com/in/antruong24112005) · [URA profile](https://ura.hcmut.edu.vn/people/an.truong241105)
 
-# Tech Stack
+</div>
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![ROS2](https://img.shields.io/badge/ros2-%2322314E.svg?style=for-the-badge&logo=ros&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![PX4](https://img.shields.io/badge/PX4-%23673AB7.svg?style=for-the-badge&logo=drone&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Gazebo](https://img.shields.io/badge/Gazebo-%23FFA500.svg?style=for-the-badge&logo=gazebo&logoColor=white) ![RViz](https://img.shields.io/badge/RViz-%23B3B3B3.svg?style=for-the-badge&logo=ros&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+## About
 
----
+I build perception and navigation systems for robots and UAVs, and I care about how much of such a system really has to be learned. I am a final-year undergraduate in the **Honors Program in Computer Engineering** at Ho Chi Minh City University of Technology (HCMUT, VNU-HCM), a Research Assistant at the URA Research Group advised by Assoc. Prof. Quan Thanh Tho, and an AI Engineer at Hypmotion working on edge-deployed perception.
 
-# Projects
+## Research interests
+
+My research asks how much of a robot perception and control system really has to be learned. I turn raw sensor data into explicit, typed representations and reason on them with closed-form or symbolic components whose behavior can be stated, proved and tested. Where a neural network is still useful, I want its inputs and outputs to be data people can inspect and check, so the contribution of the learned part can be measured.
+
+- Reliable and explainable AI
+- Computer vision and robot perception
+- Reinforcement learning and neuro-symbolic AI
+- Vision–language(-action) and decision models
+- Symbolic reasoning and verifiable control
+
+## Publications
+
+- **MARS: Lightweight Multi-Task Mamba for Joint Dynamic-Collision and Trajectory Prediction in Mapless Navigation.**
+  Q. Tran, **A. T. Truong**, P. N. M. Nguyen, K. D. Nguyen, H. D. N. Vu, N. P. Ho, P. H. N. Nguyen, H. P. T. Ha, N. T. Le, T. T. Quan.
+  *The 2nd International Conference on Intelligent Aerial Access and Applications (IAAA 2026).* Accepted.
+
+## Selected projects
 
 | Project | What I did | Tech | Link |
 |---|---|---|---|
-| **Autonomous UAV Navigation & Obstacle Avoidance (DRL)**<br><sub>April 2026 – Present · Internship Project</sub> | • Designed and trained a **PX4-based quadrotor (x500_depth)** to navigate cluttered environments and avoid randomized pillar obstacles in Gazebo SITL.<br>• Built a **5-stage curriculum** that progressively introduces obstacle density, domain noise (sensor drift, actuator jitter, wind, mass variation), and sim-to-real transfer constraints — enabling the agent to generalize from a clean simulator to noisy real-world dynamics.<br>• Engineered a **potential-based reward shaping (PBRS)** system with a hybrid progress signal, stabilizing policy convergence and eliminating reward hacking artifacts.<br>• Developed a **proprietary real-time perception pipeline** converting stereo depth and LiDAR into structured spatial representations for the RL policy — designed for sub-50 ms end-to-end latency on edge hardware.<br>• Architected a **multi-environment parallel training** setup with full ROS 2 / Gazebo isolation per rank, enabling reproducible multi-instance SITL at scale. | ![ROS2](https://img.shields.io/badge/ROS2-111?style=flat-square) ![Gazebo](https://img.shields.io/badge/Gazebo-111?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-111?style=flat-square) ![SB3](https://img.shields.io/badge/Stable--Baselines3-111?style=flat-square) ![PX4](https://img.shields.io/badge/PX4-111?style=flat-square) | 🔗 [GitHub](https://github.com/TianAn2411/UAV-obstacle_avoidance) |
-| **RobotDog Lite3 (DeepRobotics) – Autonomous Navigation & Hazard Detection**<br><sub>Oct 2025 – Present · URA Research Group, HCMUT</sub> | • Developed **RL components** for autonomous movement and decision-making on a physical quadruped platform.<br>• Owned end-to-end **Motion API**: state feedback, safety constraints, UI–backend command integration, and documentation.<br>• *Codebase proprietary; details available upon request.* | ![RL](https://img.shields.io/badge/Reinforcement%20Learning-111?style=flat-square) ![Robotics](https://img.shields.io/badge/Robotics-111?style=flat-square) ![ROS2](https://img.shields.io/badge/ROS2-111?style=flat-square) | 🔒 Private (Coteccons/URA) |
-| **Environmental Sound Recognition (Edge ML on Embedded Device)**<br><sub>Oct 2025 – Dec 2025 · Team of 4</sub> | • Trained an environmental sound classification model — dataset preparation, augmentation, and evaluation pipeline.<br>• Integrated **on-device inference** and benchmarked latency vs. accuracy trade-offs across model compression strategies. | ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Edge AI](https://img.shields.io/badge/Edge%20AI-111?style=flat-square) ![Embedded](https://img.shields.io/badge/Embedded-111?style=flat-square) | 🔗 [GitHub](https://github.com/TianAn2411/Sound-detect-Service) |
-| **STM32 Multi-Mode Traffic Light Controller**<br><sub>Nov 2025 – Dec 2025 · Team of 2</sub> | • Designed system-wide **FSM** for multi-mode transitions and deterministic timing.<br>• Implemented traffic behaviors in **Embedded C** with a lightweight cooperative scheduler. | ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![STM32](https://img.shields.io/badge/STM32-111?style=flat-square) ![FSM](https://img.shields.io/badge/FSM-111?style=flat-square) | 🔗 [GitHub](https://github.com/TianAn2411/STM32_Traffic_Light_Project_251) |
+| **DSP-Based Multi-View Stereo Depth Estimation**<br><sub>Sep – Oct 2026 · Independent project</sub> | • Designed a depth-estimation method for a multi-fisheye camera rig with **no neural network**: spherical convolution of the image signal, then a closed-form solve for depth, with no iterative optimization.<br>• Implemented it in C++ at 60 fps on an RTX 5080, with the convolution cast as GEMM. | ![C++](https://img.shields.io/badge/C%2B%2B-2b3137?style=flat-square&logo=cplusplus&logoColor=white) ![DSP](https://img.shields.io/badge/DSP-2b3137?style=flat-square) ![GEMM](https://img.shields.io/badge/GEMM-2b3137?style=flat-square) | Private until graduation |
+| **Multi-Env RL Training Framework for Gazebo**<br><sub>Apr – Aug 2026 · AI Engineer Intern project</sub> | • Trains PPO policies for UAV obstacle avoidance in parallel, isolated and synchronized PX4/Gazebo environments.<br>• 6-stage curriculum with per-stage configs for the obstacle field, sensor noise, action delay, vehicle mass and wind. | ![PPO](https://img.shields.io/badge/PPO-2b3137?style=flat-square) ![PX4](https://img.shields.io/badge/PX4-2b3137?style=flat-square) ![Gazebo](https://img.shields.io/badge/Gazebo-2b3137?style=flat-square) ![ROS 2](https://img.shields.io/badge/ROS%202-2b3137?style=flat-square&logo=ros&logoColor=white) ![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-2b3137?style=flat-square) | [GitHub](https://github.com/TianAn2411/UAV-obstacle_avoidance) |
+| **RobotDog Lite3 (DeepRobotics)**<br><sub>Oct – Dec 2025 · URA Research Group, HCMUT</sub> | • Developed RL movement and decision-making components for autonomous navigation and hazard detection.<br>• Built a UI-to-robot motion API with state feedback, safety constraints and interface documentation.<br>• *Codebase proprietary; details available on request.* | ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-2b3137?style=flat-square) ![Robotics](https://img.shields.io/badge/Robotics-2b3137?style=flat-square) | Private |
 
----
-
-## Contact
+## Skills
 
 | | |
 |---|---|
-| <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" width="20"/> | [antruong.andy.work@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=antruong.andy.work@gmail.com) |
-| <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20"/> | [linkedin.com/in/antruong24112005](https://www.linkedin.com/in/antruong24112005) |
-| <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="20"/> | [Trương Thiên Ân](https://www.facebook.com/trth.an241105/) |
-| <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="20"/> | [@trth_an2411](https://instagram.com/trth_an2411) |
+| **Languages** | ![C++](https://img.shields.io/badge/C++-2b3137?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-2b3137?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-2b3137?style=flat-square&logo=rust&logoColor=white) ![Embedded C](https://img.shields.io/badge/Embedded%20C-2b3137?style=flat-square&logo=c&logoColor=white) ![Verilog](https://img.shields.io/badge/Verilog-2b3137?style=flat-square) |
+| **ML and robotics** | ![PyTorch](https://img.shields.io/badge/PyTorch-2b3137?style=flat-square&logo=pytorch&logoColor=white) ![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-2b3137?style=flat-square) ![Gymnasium](https://img.shields.io/badge/Gymnasium-2b3137?style=flat-square) ![ROS 2](https://img.shields.io/badge/ROS%202-2b3137?style=flat-square&logo=ros&logoColor=white) ![PX4](https://img.shields.io/badge/PX4-2b3137?style=flat-square) ![Gazebo](https://img.shields.io/badge/Gazebo-2b3137?style=flat-square) |
+| **Edge and systems** | ![TensorRT](https://img.shields.io/badge/TensorRT-2b3137?style=flat-square&logo=nvidia&logoColor=white) ![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-2b3137?style=flat-square&logo=onnx&logoColor=white) ![OpenCL](https://img.shields.io/badge/OpenCL-2b3137?style=flat-square&logo=khronosgroup&logoColor=white) ![Zephyr RTOS](https://img.shields.io/badge/Zephyr%20RTOS-2b3137?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-2b3137?style=flat-square&logo=linux&logoColor=white) |
 
----
+## Contact
 
-[![](https://visitcount.itsvg.in/api?id=TianAn2411&icon=0&color=0)](https://visitcount.itsvg.in)
+- Email: [antruong.andy.work@gmail.com](mailto:antruong.andy.work@gmail.com)
+- LinkedIn: [linkedin.com/in/antruong24112005](https://www.linkedin.com/in/antruong24112005)
+- URA Research Group: [ura.hcmut.edu.vn/people/an.truong241105](https://ura.hcmut.edu.vn/people/an.truong241105)
